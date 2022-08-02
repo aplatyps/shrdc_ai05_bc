@@ -13,12 +13,12 @@ The data is first loaded and preprocessed, such that unwanted features are remov
 ## 3.2. Model Pipeline
 A feedforward neural network is constructed that is catered for classification problem. The structure of the model is fairly simple. Figure below shows the structure of the model.
 
-![alt text](http://github.com/aplatyps/shrdc_ai05_bc/blob/main/img/model.PNG)
+![model](http://github.com/aplatyps/shrdc_ai05_bc/blob/main/img/model.png)
 
 The model is trained with a batch size of 32 and for 100 epochs. Early stopping is applied in this training. The two figures below show the graph of the training process.
 
-![alt text](http://github.com/aplatyps/shrdc_ai05_bc/blob/main/img/accuracy.PNG)
-![alt text](http://github.com/aplatyps/shrdc_ai05_bc/blob/main/img/loss.PNG)
+![accuracy](http://github.com/aplatyps/shrdc_ai05_bc/blob/main/img/accuracy.png)
+![loss](http://github.com/aplatyps/shrdc_ai05_bc/blob/main/img/loss.png)
 
 ## 4. Results
 Upon evaluating the model with test data, the model obtain the following test results, as shown in figure below.
@@ -28,4 +28,4 @@ Test loss = 0.06355356425046921
 Test accuracy = 0.9912280440330505
 ~~~
 
-![alt text](http://github.com/aplatyps/shrdc_ai05_bc/blob/main/img/confusion_matrix.png)
+![confusion](http://github.com/aplatyps/shrdc_ai05_bc/blob/main/img/confusion_matrix.png)
